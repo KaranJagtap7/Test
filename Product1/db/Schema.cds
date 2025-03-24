@@ -11,6 +11,6 @@ view emp_view as select from Employee{
         Employee.EMPID,
         Employee.EMPNM,
         Employee.EMPPH,
-        Case when EMPID = 1 THEN 1 ELSE 0 END AS TEMP,
-        WHERE EMP.EMPID = 2
+        Case when EMPID = 1 THEN 1 ELSE 0 END AS TEMP
+        // WHERE EMP.EMPID = 2
 }
