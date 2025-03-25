@@ -7,5 +7,6 @@ service MyService {
 
     // Get service 
     entity Employee as projection on db.Employee; 
+    // entity emp_details as projection on db.emp_view;
 
 } 

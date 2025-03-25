@@ -1,0 +1,19 @@
+PROCEDURE "CreateEmployee"( 
+    IN  EMPID   INTEGER,
+    IN   EMPNM   nvarchar(100),
+    IN   EMPPH   INTEGER,
+    IN   CITY    nvarchar(10)
+)
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+--    READS SQL DATA 
+    AS
+BEGIN
+   /*************************************
+       Write your procedure logic
+   *************************************/
+
+    insert into PRODUCT1_DB_EMPLOYEE values ( :EMPID, :EMPNM, :EMPPH, :CITY); 
+
+END
