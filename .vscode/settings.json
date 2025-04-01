@@ -1,5 +1,8 @@
 {
     "SAP HANA Database Explorer.ShowXsAdvancedConnections": true,
     "SAP HANA Project Explorer.bind.confirm existing service": false,
-    "SAP HANA Database Artifacts.lastSelectedTargetPath": "/home/user/projects/Product1/db/src"
+    "SAP HANA Database Artifacts.lastSelectedTargetPath": "/home/user/projects/Delta/db/src",
+    "SAP HANA SQLScript LSP.URL": "https://hana-cockpit-001.cfapps.us10.hana.ondemand.com/hrtt-service",
+    "SAP HANA SQLScript LSP.XsAdvancedHrttServiceUrl": "",
+    "SAP HANA Database Explorer.UseObjectsDefinitionForSqlGeneration.RetentionTime": 7
 }

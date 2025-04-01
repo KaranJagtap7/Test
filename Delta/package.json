@@ -1,15 +1,14 @@
 {
-  "name": "Product1",
+  "name": "Delta",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@cap-js/hana": "^1",
     "@sap/cds": "^8",
-    "@sap/hdi-deploy": "^5.4.1",
-    "express": "^4"
+    "express": "^4",
+    "@cap-js/hana": "^1"
   },
   "devDependencies": {
     "@cap-js/cds-types": "^0.9.0",
@@ -26,5 +25,5 @@
         "kind": "mocked"
       }
     }
-  }
+  } 
 }

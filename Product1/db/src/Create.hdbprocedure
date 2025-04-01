@@ -1,8 +1,8 @@
 PROCEDURE "CreateEmployee"( 
-    IN  EMPID   INTEGER,
-    IN   EMPNM   nvarchar(100),
-    IN   EMPPH   INTEGER,
-    IN   CITY    nvarchar(10)
+    IN EMPID INTEGER,
+    IN EMPNM NVARCHAR(100),
+    IN EMPPH INTEGER,
+    IN CITY  NVARCHAR(10)
 )
    LANGUAGE SQLSCRIPT
    SQL SECURITY INVOKER
